@@ -1,0 +1,16 @@
+body {
+   background: rgb(176, 176, 176);
+}
+
+.foto-perfil {
+    width: 250px;
+    border: 2px solid rgb(255, 255, 255); /* shorthand */
+    border-radius: 50%;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+}
+
+p {
+    color: rgb(60, 60, 60);
+}

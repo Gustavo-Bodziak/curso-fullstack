@@ -1,0 +1,22 @@
+body {
+   background: rgb(176, 176, 176);
+}
+
+.foto-perfil {
+    width: 250px;
+
+    margin: 30px 30px 30px 30px;
+    /* margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 500px; */
+    border-radius: 50%;
+
+    border: 2px solid rgb(255, 255, 255); /* shorthand */
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+}
+
+p {
+    color: rgb(60, 60, 60);
+}
