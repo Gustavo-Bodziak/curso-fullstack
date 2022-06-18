@@ -1,0 +1,13 @@
+
+ul {
+    background: #808080;
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 0.4;
+}
+
+ul li {
+    display: inline-block;
+    margin: 20px;
+
+}

@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+a:hover + .caixa1 {
+    display: block;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:active {
+    color: blue;
+}
+
+.caixa1 {
+    display: none;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.caixa1:hover {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    color: blue;
+}
+
+.exemplo p:nth-child(5) {
+    color: orangered;
+}
