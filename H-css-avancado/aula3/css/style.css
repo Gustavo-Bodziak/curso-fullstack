@@ -1,0 +1,8 @@
+img {
+    width: 50%;
+    filter: brightness(400%);
+}
+
+.box {
+    filter: blur(10px);
+}
