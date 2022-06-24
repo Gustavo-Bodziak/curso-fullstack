@@ -1,0 +1,36 @@
+.container {
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.red {
+    flex-grow: 2;
+    align-self: center;
+    background-color: red;
+}
+
+.blue {
+    flex-grow: 3;
+    align-self: flex-end;
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    order: -1;
+    background-color: green;
+}

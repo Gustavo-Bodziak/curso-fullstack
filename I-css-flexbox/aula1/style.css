@@ -1,0 +1,30 @@
+.container {
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+}
+
+.box {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
